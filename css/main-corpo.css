@@ -9,10 +9,10 @@ button.slick-prev {
     height: 54px;
     position: absolute;
     z-index: 9;
-    top: 30%;
+    top: 50%;
     left: 0;
     background-color: transparent;
-    background-image: url('../img/arrow\ 1.png');
+    /*background-image: url('../img/arrow\ 1.png');*/
 }
 button.slick-next {
     font-size: 0;
@@ -21,8 +21,8 @@ button.slick-next {
     height: 54px;
     position: absolute;
     z-index: 9;
-    top: 30%;
+    top: 50%;
     right: 0;
     background-color: transparent;
-    background-image: url('../img/arrow\ 2.png');
+    /*background-image: url('../img/arrow\ 2.png');*/
 }
