@@ -67,7 +67,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1;
 
     opacity: .75;
@@ -146,6 +146,9 @@
     padding: 0;
 
     cursor: pointer;
+
+    /*border: 3px solid #fff;*/ /* Borda Butão */
+    /*border-radius: 50%;*/
 }
 .slick-dots li button
 {
@@ -155,7 +158,7 @@
     display: block;
 
     width: 20px;
-    height: 20px;
+    height: 170px;
     padding: 5px;
 
     cursor: pointer;
@@ -178,7 +181,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 27px; /* Tamanho do butão */
     line-height: 20px;
 
     position: absolute;
@@ -191,7 +194,7 @@
     content: '•';
     text-align: center;
 
-    opacity: .25;
+    opacity: .50;
     color: #252323;
 
     -webkit-font-smoothing: antialiased;
