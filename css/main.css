@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Glacial Indifference;
+    src: url(../font/GlacialIndifference-Regular.otf);
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-menu {
+    width: 100%;
+    background-color: #252323;
+    height: 90px;
+}
+main {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo {
+    padding: 16px;
+    float: left;
+    width: 20%;
+}
+#menu {
+    width: 80%;
+    padding: 25px;
+    margin:0px;
+    background-color:#fff0;
+    list-style:none;
+}
+#menu ul {
+    margin: 0 auto;
+    text-align: right;
+}
+#menu ul li {
+    display: inline-block;
+    
+}
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    font-family: Glacial Indifference;
+
+    /* visual do link */
+    color: #fff0ff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.col-100 {
+    width: 100%;
+    position: relative;
+    float: left;
+}
