@@ -20,10 +20,10 @@ main, .contant {
 .logo {
     padding: 16px;
     float: left;
-    width: 20%;
+    /*width: 20%;*/
 }
 #menu {
-    width: 90%;
+    /*width: 90%;*/
     padding: 25px;
     margin:0px;
     background-color:#fff0;
@@ -52,4 +52,33 @@ main, .contant {
     width: 100%;
     position: relative;
     float: left;
+}
+.rodape {
+    background-color: #252323;
+    padding: 16px;
+    display: flow-root;
+    margin: 0 auto;
+}
+#copyright {
+    padding: 16px;
+    float: left;
+    display: block;
+}
+#logo {
+    float: right;
+    text-align: left;
+    list-style:none;
+    display: block;   
+}
+#logo img {
+    vertical-align: middle;
+}
+.rodape p {
+    font-size: 100%;
+    color: #fff;
+}
+.main-rodape {
+    width: 100%;
+    background-color: #252323;
+    height: auto;
 }
