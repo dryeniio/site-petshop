@@ -29,7 +29,7 @@ button.slick-next {
 .slick-dotted.slick-slider {
     margin-bottom: 0px!important;
 }
-.sobre, .pets {
+.sobre, .pet {
     background-color: #25232315;
     margin: 0 auto;
     display: flex;
@@ -40,5 +40,9 @@ button.slick-next {
 h2{
    display: block;
    font-family: Glacial Indifference;;
-
+    font-size: 250%;
+}
+p {
+    display: block;
+    font-size: 125%;
 }
