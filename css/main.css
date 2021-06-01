@@ -12,7 +12,7 @@ body {
     background-color: #252323;
     height: 90px;
 }
-main {
+main, .contant {
     width: 980px;
     margin: 0 auto;
     position: relative;
