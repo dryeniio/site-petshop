@@ -1,46 +1,48 @@
-@font-face {
+@font-face { /* Adiciona uma nova fonte de texto*/
     font-family: Glacial Indifference;
     src: url(../font/GlacialIndifference-Regular.otf);
 }
-body {
+body { /* Muda toda a estrutura do body no html*/
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
-.main-menu {
+.main-menu { /* Muda o texto com esse nome no class*/
     width: 100%;
     background-color: #252323;
     height: 90px;
 }
-main, .contant {
+main, .contant { /* Muda o texto com esse nome no class e o main no html*/
     width: 980px;
     margin: 0 auto;
     position: relative;
 }
-.logo {
+.logo { /* Muda o texto com esse nome no class*/
     padding: 16px;
     float: left;
-    /*width: 20%;*/
 }
-#menu {
-    /*width: 90%;*/
-    padding: 25px;
+#menu { /* Muda o texto com esse nome no id*/
+    
+    padding: 34px;
     margin:0px;
     background-color:#fff0;
     list-style:none;
+    float: right;
 }
-#menu ul {
+#menu ul { /* Muda o texto com esse nome no id*/
     margin: 0 auto;
     text-align: right;
-}
-#menu ul li {
+} 
+#menu ul li { /* Muda o texto com esse nome no id*/
     display: inline-block;
+    cursor: pointer;
     
 }
-#menu ul li a {
+#menu ul li a { /* Muda o texto com esse nome no id*/
     padding: 2px 10px;
     display: inline-block;
     font-family: Glacial Indifference;
+    
 
     /* visual do link */
     color: #fff0ff;
@@ -48,36 +50,35 @@ main, .contant {
     font-size: 15px;
     text-transform: uppercase;
 }
-.col-100 {
+.col-100 { /* Muda o texto com esse nome no class*/
     width: 100%;
     position: relative;
     float: left;
 }
-.rodape {
+.rodape { /* Muda o texto com esse nome no class*/
     background-color: #252323;
-    padding: 16px;
     display: flow-root;
     margin: 0 auto;
 }
-#copyright {
+#copyright { /* Muda o texto com esse nome no id*/
     padding: 16px;
     float: left;
     display: block;
 }
-#logo {
+#logo { /* Muda o texto com esse nome no id*/
     float: right;
     text-align: left;
     list-style:none;
     display: block;   
 }
-#logo img {
+#logo img { /* Muda o texto com esse nome no id*/
     vertical-align: middle;
 }
-.rodape p {
+.rodape p { /* Muda o texto com esse nome no class*/
     font-size: 100%;
     color: #fff;
 }
-.main-rodape {
+.main-rodape { /* Muda o texto com esse nome no id*/
     width: 100%;
     background-color: #252323;
     height: auto;
