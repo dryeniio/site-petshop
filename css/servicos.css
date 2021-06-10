@@ -1,0 +1,16 @@
+.fotos-servicos {
+    display: inline-block;
+    padding: 0 auto;
+}
+img.foto-1 {
+    height: auto;
+    width: 150px !important;
+}
+img.foto-2 {
+    height: auto;
+    width: 150px !important; 
+}
+img.foto-3 {
+    height: auto;
+    width: 150px !important;
+}
