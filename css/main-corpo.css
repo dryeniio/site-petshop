@@ -36,11 +36,11 @@ button.slick-next { /* Muda o butão do Slide*/
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: 150%;
 }
 h2{ 
    display: block;
    font-family: Glacial Indifference;
-    font-size: 250%;
 }
 p { /* Muda o texto que tenha a tag p*/
     display: block;
@@ -49,3 +49,6 @@ p { /* Muda o texto que tenha a tag p*/
 hr { /* cria o tracejado com essa tag*/
     margin: 40px 0;
   }
+h1 {
+    font-family: Glacial Indifference;
+}

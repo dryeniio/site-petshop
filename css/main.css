@@ -50,6 +50,9 @@ main, .contant { /* Muda o texto com esse nome no class e o main no html*/
     font-size: 15px;
     text-transform: uppercase;
 }
+#menu ul li a:hover {
+    color: #ff6b00;
+}
 .col-100 { /* Muda o texto com esse nome no class*/
     width: 100%;
     position: relative;
@@ -82,4 +85,48 @@ main, .contant { /* Muda o texto com esse nome no class e o main no html*/
     width: 100%;
     background-color: #252323;
     height: auto;
+}
+p {
+    font-size: 125%;
+}
+h2 {
+    font-size: 200%;
+}
+h1 {
+    font-size: 250%;
+}
+#corlaranja {
+    color: #ff6b00;
+}
+#linha {
+    text-decoration: underline;
+    text-decoration-color: #ff6b00;
+}
+.botao-contato {
+    font-size: 150%!important;
+    margin-bottom: 30px;
+}
+.botao-contato button {
+    font-size: 150%;
+    font-family: Glacial Indifference;
+    color: white;
+    border-style: outset;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ff6b00;
+    border-color: #ff6b00;
+    text-shadow:none;
+    cursor: pointer;
+
+}
+.botao-contato button:hover {
+    background-color: #252323;
+    color: #ff6b00;
+    border-color: #252323;
+}
+.col-100-color {
+    background-color: #25232315;
+}
+.contato {
+    text-align: center;
 }
