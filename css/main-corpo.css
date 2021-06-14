@@ -36,7 +36,6 @@ button.slick-next { /* Muda o butão do Slide*/
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 150%;
 }
 h2{ 
    display: block;
