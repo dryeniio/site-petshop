@@ -17,7 +17,6 @@ h1 {
 .grid-item {
     padding: 20px;
     text-align: center;
-    font-size: 125%;
 }
 h2 {
     font-family: Glacial Indifference;
@@ -30,7 +29,4 @@ h2 {
     margin-right: auto;
     margin-top: 25px;
     vertical-align: middle;
-}
-p {
-    font-size: 125%;
 }
