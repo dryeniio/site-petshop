@@ -95,10 +95,10 @@ h2 {
 h1 {
     font-size: 250%;
 }
-#corlaranja {
+.corlaranja {
     color: #ff6b00;
 }
-#linha {
+.linha {
     text-decoration: underline;
     text-decoration-color: #ff6b00;
 }
@@ -113,14 +113,14 @@ h1 {
     padding: 10px;
     border-radius: 10px;
     background-color: #ff6b00;
-    border-color: #ff6b00;
+    border-style: none;
     text-shadow:none;
     cursor: pointer;
 }
 .botao-contato button:hover {
     background-color: #252323;
     color: #ff6b00;
-    border-color: #252323;
+    border-style: none;
 }
 .col-100-color {
     background-color: #25232315;

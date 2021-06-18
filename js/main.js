@@ -1,7 +1,7 @@
 $('.slider-principal').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     dots: true,
   });
