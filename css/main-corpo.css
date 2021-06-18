@@ -29,7 +29,7 @@ button.slick-next { /* Muda o butão do Slide*/
 .slick-dotted.slick-slider { /* Muda o texto com esse nome no class*/
     margin-bottom: 0px!important;
 }
-.sobre, .pet { /* Muda o texto com esse nome no class*/
+.container { /* Muda o texto com esse nome no class*/ /*container principal*/
     background-color: #25232315;
     margin: 0 auto;
     display: flex;
@@ -59,8 +59,7 @@ h1 {
     text-align: center;
     margin: auto;
     position: absolute;
-    z-index: 10;
-    left: 13.6%;    
+    z-index: 10;    
     transform: translateX(-50%);
     top: 20%;
     background-color: #ffffff6b;
@@ -68,6 +67,18 @@ h1 {
     padding: 10px;
     padding-bottom: 20px;
 }
-.current {
-    display:block!important;
+.block-text-1{
+    left: 13.65%!important;
+}
+.block-text-2 {
+    left: 22.73%!important;   
+} 
+.block-text-3 {
+    left: 31.84%!important;
+}
+.block-text-4 {
+    left: 40.93%!important;    
+}
+.block-text-5 {
+    left: 50%!important;
 }
