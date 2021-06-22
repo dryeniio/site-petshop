@@ -2,6 +2,10 @@
     font-family: Glacial Indifference;
     src: url(../font/GlacialIndifference-Regular.otf);
 }
+@font-face {
+    font-family: Lato Light;
+    src: url(../font/Lato-Light.ttf);
+}
 body { /* Muda toda a estrutura do body no html*/
     width: 100%;
     height: 100%;
@@ -88,12 +92,15 @@ main, .contant { /* Muda o texto com esse nome no class e o main no html*/
 }
 p {
     font-size: 125%;
+    font-family: Lato Light;
 }
 h2 {
     font-size: 200%;
+    font-family: Glacial Indifference;
 }
 h1 {
     font-size: 250%;
+    font-family: Glacial Indifference;
 }
 .corlaranja {
     color: #ff6b00;
@@ -127,4 +134,9 @@ h1 {
 }
 .contato {
     text-align: center;
+}
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Adicionar os prefixos dos navegadores */
 }
