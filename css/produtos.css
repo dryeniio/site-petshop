@@ -35,10 +35,10 @@ h2 {
     margin-top: 25px;
     vertical-align: middle;
 }
-.vacinas-sobre {
+.sobre {
     font-size: 125%;
 }
-.vacina-cao, .vacina-gato {
+.text {
     text-align: justify;
     margin: 0 auto;
     padding: 10px;
