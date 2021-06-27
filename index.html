@@ -44,10 +44,10 @@
                                 <a href="./servicos.html">Serviços</a>
                             </li>
                             <li>
-                                <a href="#">Promoções</a>
+                                <a href="./promocoes.html">Promoções</a>
                             </li>
                             <li>
-                                <a href="#">Contato</a>
+                                <a href="./contato.html">Contato</a>
                             </li>
                         </ul>
                     </nav>
@@ -208,7 +208,7 @@
 
                     <div class="grid-container">
                         <a href="./produtos.html">
-                            <h2>
+                            <h2 class="linha">
                                 Produtos
                             </h2>
                             <img src="./img/coleira.png">
@@ -217,7 +217,7 @@
 
                     <div class="grid-container grid-2">
                         <a href="./promocoes.html">
-                            <h2>
+                            <h2 class="linha">
                                 Promoções
                             </h2>
                             <img src="./img/promo.png">
@@ -225,7 +225,7 @@
                     </div>
 
                     <div class="grid-container"><a href="./servicos.html">
-                            <h2>
+                            <h2 class="linha">
                                 Serviços
                             </h2>
                             <img src="./img/resultado-medico.png">
@@ -267,6 +267,26 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+
+        function inicializar() {
+            var coordenadas = { lat: -7.852449622548196, lng: -34.90857046008121 };
+
+            var mapa = new google.maps.Map(document.getElementById('mapa'), {
+                zoom: 15,
+                center: coordenadas
+            });
+
+            var marker = new google.maps.Marker({
+                position: coordenadas,
+                map: mapa,
+                title: 'Letícios PetShop'
+            });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOT2ABjEjknCwO3eyd1iF7XaKflRnuK-8&callback=inicializar">
+        </script>
 </body>
 
 </html>

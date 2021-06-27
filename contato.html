@@ -9,7 +9,7 @@
     <title>PetShop Leticio's</title>
 
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="./css/servicos.css">
+    <link rel="stylesheet" type="text/css" href="./css/contato.css">
 </head>
 
 <body>
@@ -35,19 +35,102 @@
                                 <a href="./produtos.html">Produtos</a>
                             </li>
                             <li>
-                                <a href="#">Serviços</a>
+                                <a href="./servicos.html">Serviços</a>
                             </li>
                             <li>
-                                <a href="#">Promoções</a>
+                                <a href="./promocoes.html">Promoções</a>
                             </li>
                             <li>
-                                <a href="#">Contato</a>
+                                <a href="#"><span class="corlaranja">Contato</span></a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </main>
         </header>
+    </section>
+
+    <section class="col-100 col-100-color">
+
+        <main>
+
+            <div class="essencial principal">
+                <h1 class="linha">
+                    Contato
+                </h1>
+                <p>
+                    Entre em contato conosco, atravez dos métodos abaixo.
+                </p>
+            </div>
+        </main>
+    </section>
+
+    <section class="col-100 col-100-color">
+
+        <section class="essencial contant">
+
+            <div class="contatos">
+
+                <div class="grid-container">
+                    <div class="grid-item grid-1">
+
+                        <h2>
+                            Perguntas, comentários? Você nos diz. Nós ouvimos.
+                        </h2>
+                        <p>
+                            <span class="corlaranja">E</span>-mail: <a href="mailto:contato@leticios.petshop"
+                                class="remove-link"><span class="linha"> contato<span
+                                        class="corlaranja">@</span>leticios.petshop</a>
+                            </span>
+                        </p>
+                        <p>
+                            <span class="corlaranja">N</span>osso <span class="corlaranja">N</span>úmero: (81)
+                            98888-7777
+                        </p>
+                        <p>
+                            <span class="corlaranja">D</span>omingo a <span class="corlaranja">D</span>omingo: 07:00
+                            <span class="corlaranja">-</span> 20:00
+                        </p>
+                        <h2>
+                            Precisa de nós? Ligue para nós.
+                        </h2>
+                        <h2>
+                            (81)9 8888-7777
+                        </h2>
+                    </div>
+
+                    <div class="grid-item">
+
+                        <form action="/" class="decor">
+                            <div class="form-left-decoration"></div>
+                            <div class="form-right-decoration"></div>
+                            <div class="circle"></div>
+                            <div class="form-inner">
+                                <h1 class="h1">Contate-Nós</h1>
+                                <input type="text" placeholder="Nome">
+                                <input type="email" placeholder="E-mail">
+                                <textarea placeholder="Mensagem... " rows="5"></textarea>
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="loja">
+
+                <h2 class="linha">
+                    Ou venha em nossa loja fisíca!
+                </h2>
+
+                <div id="mapa"></div>
+
+                <hr>
+
+            </div>
+
+        </section>
     </section>
 
 
@@ -68,6 +151,26 @@
 
     </footer>
 
+    <script>
+
+        function inicializar() {
+            var coordenadas = { lat: -7.852449622548196, lng: -34.90857046008121 };
+
+            var mapa = new google.maps.Map(document.getElementById('mapa'), {
+                zoom: 15,
+                center: coordenadas
+            });
+
+            var marker = new google.maps.Marker({
+                position: coordenadas,
+                map: mapa,
+                title: 'Letícios PetShop'
+            });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOT2ABjEjknCwO3eyd1iF7XaKflRnuK-8&callback=inicializar">
+        </script>
 
 </body>
 
