@@ -174,4 +174,7 @@ h1 {
 #mapa {
     height:400px;
     width: auto;
-  }
+}
+.principal{
+    font-size: 150%;
+}

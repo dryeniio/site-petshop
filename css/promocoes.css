@@ -1,0 +1,77 @@
+.essencial {
+    text-align: center;
+    align-content: center;
+}
+h1{
+    font-family: Glacial Indifference;
+}
+.principal {
+    font-size: 150%;
+}
+.text {
+    margin: 0 auto;
+    padding: 10px;
+}
+.texto-just {
+    text-align: justify;
+}
+h3 {
+    font-family: Glacial Indifference;
+}
+.table {
+    font-family: Lato;
+}
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 10px;
+    border-color: black;
+}
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+    padding: 10px;
+    border-color: black;
+}
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    padding: 10px;
+    border-color: black;
+}
+.grid-container a {
+    color: black;
+    text-decoration: none;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+.image-grid {
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    vertical-align: middle;
+}
+.sobre {
+    font-size: 125%;
+}
+.result {
+    margin: auto;
+}
+.ganho {
+    margin-top: 12%;
+}
+.sinal {
+    margin: auto;
+    padding-top: 50%;
+}
+.grande {
+    font-size: 200%;
+}
