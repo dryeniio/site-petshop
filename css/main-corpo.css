@@ -97,6 +97,8 @@ h1 {
 }
 .grid-2 {
     padding-top: 40%;
+    margin-bottom: 20px;
+    transition-duration: 2s;
 }
 .grid-container img {
     height: auto;
@@ -121,4 +123,12 @@ h1 {
 .egg {
     text-decoration: none;
     color: #fff;
+}
+.home-link {
+    transition-duration: 2s;
+
+}
+.home-link:hover {
+    transition-duration: 1s;
+    font-size: 120%;
 }

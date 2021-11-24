@@ -95,7 +95,7 @@ background: #fff;
 padding: 40px;
 }
 .form-inner input,
-.form-inner textarea {
+.form-inner textarea, .form-inner select {
 display: block;
 width: 100%;
 padding: 15px;

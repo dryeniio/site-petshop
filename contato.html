@@ -95,7 +95,8 @@
                             Precisa de nós? Ligue para nós.
                         </h2>
                         <h2>
-                            (81)9 8888-7777
+                            <span class="corlaranja">(</span>81<span class="corlaranja">)</span>9 8888<span
+                                class="corlaranja">-</span>7777
                         </h2>
                     </div>
 
@@ -107,8 +108,18 @@
                             <div class="circle"></div>
                             <div class="form-inner">
                                 <h1 class="h1">Contate-Nós</h1>
-                                <input type="text" placeholder="Nome">
+                                <input type="text" placeholder="Nome do Responsável do Animal">
+                                <input type="text" placeholder="Nome do Animal">
+                                <select name="select">
+                                    <option value="">Selecione uma espécie</option>
+                                    <option value="dog">Cachorro</option>
+                                    <option value="cat">Gato</option>
+                                    <option value="cockatiel">Calopcita</option>
+                                    <option value="other">Outro</option>
+                                </select>
                                 <input type="email" placeholder="E-mail">
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{2}[9]{1}[0-9]{4}[0-9]{4}"
+                                    required placeholder="(99) 98888-8888">
                                 <textarea placeholder="Mensagem... " rows="5"></textarea>
                                 <button type="submit">Enviar</button>
                             </div>
